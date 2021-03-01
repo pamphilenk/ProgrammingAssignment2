@@ -48,7 +48,7 @@ cacheSolve <- function(m, ...) {
         
         if(!is.null(invm)){                     # if already computed then loadcache and 
                 
-                matinvm <- loadCache(invm)     #gets the loaded value. The available inverse
+                message("getting cached data")   #message
                 
                 return(matinvm)                #give the inverse and break
         }                                       
